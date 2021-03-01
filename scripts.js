@@ -52,3 +52,11 @@ viewButtons[i].addEventListener("mouseover" , function(){
 }
 
 // Exo 7
+
+let cardsRight = document.querySelector(".album").firstElementChild.firstElementChild; 
+	rightRow = document.querySelector("a.btn.btn-secondary.my-2")
+	rightRow.addEventListener("click", function() {
+		cardsRight.insertBefore(cardsRight.lastElementChild, cardsRight.firstElementChild);
+});
+
+
