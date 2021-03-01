@@ -9,9 +9,9 @@ document.getElementsByTagName("footer")[0].addEventListener("click", function(){
 
 //Exo 2 
 
-let BurgerMenu = document.getElementById("navbarHeader");
+let burgerMenu = document.getElementById("navbarHeader");
 	hamburger = document.querySelector("button", ".navbar-toggler").addEventListener("click", function () {
-		BurgerMenu.classList.toggle("collapse");
+		burgerMenu.classList.toggle("collapse");
 });
 
 //Exo 3
